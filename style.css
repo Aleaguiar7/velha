@@ -31,14 +31,16 @@ hr {
     margin-bottom: 10px;
 }
 
-game {
+.game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    place-items: center; 
+    height: 300px;
 }
 
-game button {
-    width: 100px;
-    height: 100px;
+.game button {
+    width: 150px;
+    height: 150px;
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
